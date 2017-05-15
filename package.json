@@ -8,7 +8,7 @@
     "lib/"
   ],
   "scripts": {
-    "lint": "semistandard",
+    "lint": "standard",
     "prepublish": "npm run test",
     "posttest": "npm run lint",
     "test": "ava"
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/jantimon/favicons-webpack-plugin/issues"
   },
-  "semistandard": {
+  "standard": {
     "parser": "babel-eslint"
   },
   "homepage": "https://github.com/jantimon/favicons-webpack-plugin",
@@ -43,7 +43,7 @@
     "memory-fs": "^0.3.0",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.5.2",
-    "semistandard": "^9.1.0",
+    "standard": "^10.0.2",
     "webpack": "^1.13.0",
     "webpack-dev-middleware": "^1.6.1"
   },
