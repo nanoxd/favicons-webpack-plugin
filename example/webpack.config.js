@@ -1,7 +1,7 @@
-'use strict';
-var FaviconsWebpackPlugin = require('..');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var path = require('path');
+'use strict'
+var FaviconsWebpackPlugin = require('..')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
+var path = require('path')
 
 module.exports = {
   context: __dirname,
@@ -15,4 +15,4 @@ module.exports = {
     new FaviconsWebpackPlugin('./src/logo.png'),
     new HtmlWebpackPlugin()
   ]
-};
+}
