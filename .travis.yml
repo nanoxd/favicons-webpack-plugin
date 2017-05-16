@@ -4,5 +4,6 @@ node_js:
   - "7"
 install:
   - npm install --ignore-scripts
+  - npm install webpack
 script:
   - npm test
