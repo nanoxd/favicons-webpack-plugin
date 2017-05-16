@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "favicons": "^4.8.3",
-    "loader-utils": "^0.2.14",
+    "loader-utils": "^1.1.0",
     "lodash": "^4.11.1",
     "webpack": "^1.13.0"
   }
