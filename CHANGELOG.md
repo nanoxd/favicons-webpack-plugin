@@ -2,6 +2,7 @@
 
 * Update to ava 0.19.1
 * Update to loader-utils 1.1.0
+* Add newlines for every injected tag
 # 0.0.6
 
 + Add support for `devtool: 'eval'`
