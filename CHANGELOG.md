@@ -4,6 +4,7 @@
 * Update to loader-utils 1.1.0
 * Add newlines for every injected tag
 * Parse options query for determining cache hash
+* Add Webpack 2 support
 
 # 0.0.6
 
